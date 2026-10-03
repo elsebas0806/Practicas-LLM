@@ -1,0 +1,4 @@
+autorizacion,empresa,certificacion_conductor,_id,camion_id,fecha_creacion,placa
+False,Carga Nacional,False,6ac0c5fe7e73b31d369d390e,CAM-103,2026-10-03 09:08:14.073000,CAM-103
+True,Transporte Seguro MX,True,6ac0c5fe7e73b31d369d390d,CAM-102,2026-10-03 09:08:14.071000,CAM-102
+True,Logistica Demo SA,True,6ac0c5fd7e73b31d369d390c,CAM-101,2026-10-03 09:08:13.983000,CAM-101

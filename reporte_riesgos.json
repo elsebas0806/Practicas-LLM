@@ -1,0 +1,86 @@
+{
+  "resumen": {
+    "sistema": "LogiSmart Python Suite",
+    "total_modulos": 3,
+    "total_riesgos": 5,
+    "riesgos_por_nivel": {
+      "crítico": 1,
+      "alto": 2,
+      "medio": 2,
+      "bajo": 0
+    },
+    "riesgos_por_categoria": {
+      "privacidad": 2,
+      "sesgo": 1,
+      "seguridad": 1,
+      "responsabilidad": 1
+    },
+    "puntaje_promedio": 12.6,
+    "modulos_sin_evaluar": []
+  },
+  "modulos": [
+    {
+      "nombre": "Cámara de Detección de Somnolencia",
+      "descripcion": "Visión por computadora que monitorea al conductor",
+      "riesgos": [
+        {
+          "descripcion": "Sesgo en visión nocturna (falsos positivos por tono de piel / poca luz)",
+          "categoria": "sesgo",
+          "probabilidad": 4,
+          "impacto": 4,
+          "mitigacion": "Entrenar y auditar con datos nocturnos y diversos; umbral ajustable",
+          "puntaje": 16,
+          "nivel": "alto"
+        },
+        {
+          "descripcion": "Violación de privacidad (video continuo del conductor)",
+          "categoria": "privacidad",
+          "probabilidad": 4,
+          "impacto": 5,
+          "mitigacion": "Procesar en el borde, no almacenar video, aviso y consentimiento",
+          "puntaje": 20,
+          "nivel": "crítico"
+        }
+      ]
+    },
+    {
+      "nombre": "Lector de Placas (LPR)",
+      "descripcion": "Reconoce placas para validar autorización previa",
+      "riesgos": [
+        {
+          "descripcion": "Lectura errónea que niega acceso injustificadamente",
+          "categoria": "responsabilidad",
+          "probabilidad": 3,
+          "impacto": 3,
+          "mitigacion": "Revisión humana y canal de apelación",
+          "puntaje": 9,
+          "nivel": "medio"
+        },
+        {
+          "descripcion": "Conservación indebida de datos de placas",
+          "categoria": "privacidad",
+          "probabilidad": 2,
+          "impacto": 4,
+          "mitigacion": "Política de retención y cifrado",
+          "puntaje": 8,
+          "nivel": "medio"
+        }
+      ]
+    },
+    {
+      "nombre": "Clasificador de Incidentes",
+      "descripcion": "Clasifica correos de soporte y extrae datos",
+      "riesgos": [
+        {
+          "descripcion": "Priorizar mal un incidente crítico (falso negativo)",
+          "categoria": "seguridad",
+          "probabilidad": 2,
+          "impacto": 5,
+          "mitigacion": "Palabras críticas siempre escalan; revisión humana de 'otro'",
+          "puntaje": 10,
+          "nivel": "alto"
+        }
+      ]
+    }
+  ]
+}

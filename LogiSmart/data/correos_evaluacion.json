@@ -1,0 +1,215 @@
+[
+  {
+    "id": 1,
+    "asunto": "No puedo entrar a mi cuenta",
+    "cuerpo": "Desde ayer no puedo iniciar sesión.",
+    "categoria_esperada": "soporte",
+    "prioridad_esperada": "alta"
+  },
+  {
+    "id": 2,
+    "asunto": "Error al iniciar sesión",
+    "cuerpo": "La aplicación muestra un error cuando intento entrar.",
+    "categoria_esperada": "soporte",
+    "prioridad_esperada": "alta"
+  },
+  {
+    "id": 3,
+    "asunto": "La aplicación no funciona",
+    "cuerpo": "No puedo utilizar el sistema desde esta mañana.",
+    "categoria_esperada": "soporte",
+    "prioridad_esperada": "alta"
+  },
+  {
+    "id": 4,
+    "asunto": "Problema con mi cuenta",
+    "cuerpo": "Necesito ayuda porque no puedo acceder.",
+    "categoria_esperada": "soporte",
+    "prioridad_esperada": "alta"
+  },
+  {
+    "id": 5,
+    "asunto": "No puedo acceder",
+    "cuerpo": "Mi contraseña funciona pero el sistema no me deja entrar.",
+    "categoria_esperada": "soporte",
+    "prioridad_esperada": "alta"
+  },
+  {
+    "id": 6,
+    "asunto": "Falla técnica",
+    "cuerpo": "El sistema presenta un error al intentar consultar mi información.",
+    "categoria_esperada": "soporte",
+    "prioridad_esperada": "alta"
+  },
+  {
+    "id": 7,
+    "asunto": "Ayuda con acceso",
+    "cuerpo": "¿Me pueden ayudar? No puedo entrar a mi cuenta.",
+    "categoria_esperada": "soporte",
+    "prioridad_esperada": "alta"
+  },
+  {
+    "id": 8,
+    "asunto": "La plataforma da error",
+    "cuerpo": "Desde hoy aparece un error y no puedo utilizarla.",
+    "categoria_esperada": "soporte",
+    "prioridad_esperada": "alta"
+  },
+
+  {
+    "id": 9,
+    "asunto": "Actividad sospechosa",
+    "cuerpo": "Detectamos actividad extraña en nuestra cuenta.",
+    "categoria_esperada": "seguridad",
+    "prioridad_esperada": "critica"
+  },
+  {
+    "id": 10,
+    "asunto": "Posible fraude",
+    "cuerpo": "Hay movimientos que no reconocemos y parecen fraudulentos.",
+    "categoria_esperada": "seguridad",
+    "prioridad_esperada": "critica"
+  },
+  {
+    "id": 11,
+    "asunto": "Cuenta comprometida",
+    "cuerpo": "Creemos que alguien obtuvo acceso no autorizado.",
+    "categoria_esperada": "seguridad",
+    "prioridad_esperada": "critica"
+  },
+  {
+    "id": 12,
+    "asunto": "Problema de seguridad",
+    "cuerpo": "Necesitamos reportar una actividad sospechosa.",
+    "categoria_esperada": "seguridad",
+    "prioridad_esperada": "critica"
+  },
+  {
+    "id": 13,
+    "asunto": "Posible hackeo",
+    "cuerpo": "Observamos accesos que no reconocemos.",
+    "categoria_esperada": "seguridad",
+    "prioridad_esperada": "critica"
+  },
+  {
+    "id": 14,
+    "asunto": "Actividad extraña",
+    "cuerpo": "Hay actividad extraña en la cuenta del operador.",
+    "categoria_esperada": "seguridad",
+    "prioridad_esperada": "critica"
+  },
+  {
+    "id": 15,
+    "asunto": "Fraude detectado",
+    "cuerpo": "Se detectó un posible fraude en una operación.",
+    "categoria_esperada": "seguridad",
+    "prioridad_esperada": "critica"
+  },
+
+  {
+    "id": 16,
+    "asunto": "Cobro incorrecto",
+    "cuerpo": "El importe cobrado no corresponde con mi factura.",
+    "categoria_esperada": "facturacion",
+    "prioridad_esperada": "media"
+  },
+  {
+    "id": 17,
+    "asunto": "Problema con factura",
+    "cuerpo": "Necesito revisar una factura incorrecta.",
+    "categoria_esperada": "facturacion",
+    "prioridad_esperada": "media"
+  },
+  {
+    "id": 18,
+    "asunto": "Pago no reconocido",
+    "cuerpo": "Quiero consultar un pago registrado en mi cuenta.",
+    "categoria_esperada": "facturacion",
+    "prioridad_esperada": "media"
+  },
+  {
+    "id": 19,
+    "asunto": "Duda sobre facturación",
+    "cuerpo": "Tengo una pregunta sobre mi última factura.",
+    "categoria_esperada": "facturacion",
+    "prioridad_esperada": "media"
+  },
+  {
+    "id": 20,
+    "asunto": "Cobro duplicado",
+    "cuerpo": "Aparece el mismo cobro dos veces.",
+    "categoria_esperada": "facturacion",
+    "prioridad_esperada": "media"
+  },
+  {
+    "id": 21,
+    "asunto": "Consulta de pago",
+    "cuerpo": "Quiero saber el estado de un pago.",
+    "categoria_esperada": "facturacion",
+    "prioridad_esperada": "media"
+  },
+  {
+    "id": 22,
+    "asunto": "Factura pendiente",
+    "cuerpo": "Necesito información sobre una factura pendiente.",
+    "categoria_esperada": "facturacion",
+    "prioridad_esperada": "media"
+  },
+
+  {
+    "id": 23,
+    "asunto": "Consulta general",
+    "cuerpo": "Quiero conocer más información sobre el servicio.",
+    "categoria_esperada": "otro",
+    "prioridad_esperada": "baja"
+  },
+  {
+    "id": 24,
+    "asunto": "Información del servicio",
+    "cuerpo": "¿Dónde puedo consultar información general?",
+    "categoria_esperada": "otro",
+    "prioridad_esperada": "baja"
+  },
+  {
+    "id": 25,
+    "asunto": "Pregunta general",
+    "cuerpo": "Tengo una duda que no está relacionada con soporte.",
+    "categoria_esperada": "otro",
+    "prioridad_esperada": "baja"
+  },
+  {
+    "id": 26,
+    "asunto": "Horarios",
+    "cuerpo": "¿Cuáles son los horarios de atención?",
+    "categoria_esperada": "otro",
+    "prioridad_esperada": "baja"
+  },
+  {
+    "id": 27,
+    "asunto": "Información",
+    "cuerpo": "Me gustaría recibir información sobre el servicio.",
+    "categoria_esperada": "otro",
+    "prioridad_esperada": "baja"
+  },
+  {
+    "id": 28,
+    "asunto": "Consulta",
+    "cuerpo": "Tengo una pregunta general.",
+    "categoria_esperada": "otro",
+    "prioridad_esperada": "baja"
+  },
+  {
+    "id": 29,
+    "asunto": "Duda sobre servicio",
+    "cuerpo": "Necesito información antes de utilizar el servicio.",
+    "categoria_esperada": "otro",
+    "prioridad_esperada": "baja"
+  },
+  {
+    "id": 30,
+    "asunto": "Pregunta informativa",
+    "cuerpo": "¿Me pueden proporcionar información general?",
+    "categoria_esperada": "otro",
+    "prioridad_esperada": "baja"
+  }
+]

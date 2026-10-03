@@ -1,0 +1,306 @@
+{
+    "total": 30,
+    "aciertos": 25,
+    "errores": 5,
+    "exactitud": 0.8333333333333334,
+    "latencia_promedio_ms": 12654.135999999997,
+    "revisiones_humanas": 15,
+    "matriz_confusion": {
+        "soporte": {
+            "soporte": 8,
+            "seguridad": 0,
+            "facturacion": 0,
+            "otro": 0
+        },
+        "seguridad": {
+            "soporte": 1,
+            "seguridad": 6,
+            "facturacion": 0,
+            "otro": 0
+        },
+        "facturacion": {
+            "soporte": 1,
+            "seguridad": 0,
+            "facturacion": 6,
+            "otro": 0
+        },
+        "otro": {
+            "soporte": 3,
+            "seguridad": 0,
+            "facturacion": 0,
+            "otro": 5
+        }
+    },
+    "resultados": [
+        {
+            "id": 1,
+            "esperada": "soporte",
+            "predicha": "soporte",
+            "prioridad_esperada": "alta",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 9185.86
+        },
+        {
+            "id": 2,
+            "esperada": "soporte",
+            "predicha": "soporte",
+            "prioridad_esperada": "alta",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 11378.99
+        },
+        {
+            "id": 3,
+            "esperada": "soporte",
+            "predicha": "soporte",
+            "prioridad_esperada": "alta",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 10131.54
+        },
+        {
+            "id": 4,
+            "esperada": "soporte",
+            "predicha": "soporte",
+            "prioridad_esperada": "alta",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 11224.19
+        },
+        {
+            "id": 5,
+            "esperada": "soporte",
+            "predicha": "soporte",
+            "prioridad_esperada": "alta",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 23773.04
+        },
+        {
+            "id": 6,
+            "esperada": "soporte",
+            "predicha": "soporte",
+            "prioridad_esperada": "alta",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 11615.73
+        },
+        {
+            "id": 7,
+            "esperada": "soporte",
+            "predicha": "soporte",
+            "prioridad_esperada": "alta",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 10555.12
+        },
+        {
+            "id": 8,
+            "esperada": "soporte",
+            "predicha": "soporte",
+            "prioridad_esperada": "alta",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 9886.83
+        },
+        {
+            "id": 9,
+            "esperada": "seguridad",
+            "predicha": "seguridad",
+            "prioridad_esperada": "critica",
+            "prioridad_predicha": "critica",
+            "revision_humana": true,
+            "latencia_ms": 22304.37
+        },
+        {
+            "id": 10,
+            "esperada": "seguridad",
+            "predicha": "seguridad",
+            "prioridad_esperada": "critica",
+            "prioridad_predicha": "critica",
+            "revision_humana": true,
+            "latencia_ms": 14694.77
+        },
+        {
+            "id": 11,
+            "esperada": "seguridad",
+            "predicha": "soporte",
+            "prioridad_esperada": "critica",
+            "prioridad_predicha": "alta",
+            "revision_humana": false,
+            "latencia_ms": 10216.82
+        },
+        {
+            "id": 12,
+            "esperada": "seguridad",
+            "predicha": "seguridad",
+            "prioridad_esperada": "critica",
+            "prioridad_predicha": "critica",
+            "revision_humana": true,
+            "latencia_ms": 12905.05
+        },
+        {
+            "id": 13,
+            "esperada": "seguridad",
+            "predicha": "seguridad",
+            "prioridad_esperada": "critica",
+            "prioridad_predicha": "critica",
+            "revision_humana": true,
+            "latencia_ms": 12287.25
+        },
+        {
+            "id": 14,
+            "esperada": "seguridad",
+            "predicha": "seguridad",
+            "prioridad_esperada": "critica",
+            "prioridad_predicha": "critica",
+            "revision_humana": true,
+            "latencia_ms": 13932.55
+        },
+        {
+            "id": 15,
+            "esperada": "seguridad",
+            "predicha": "seguridad",
+            "prioridad_esperada": "critica",
+            "prioridad_predicha": "critica",
+            "revision_humana": true,
+            "latencia_ms": 16112.17
+        },
+        {
+            "id": 16,
+            "esperada": "facturacion",
+            "predicha": "facturacion",
+            "prioridad_esperada": "media",
+            "prioridad_predicha": "media",
+            "revision_humana": false,
+            "latencia_ms": 14802.12
+        },
+        {
+            "id": 17,
+            "esperada": "facturacion",
+            "predicha": "facturacion",
+            "prioridad_esperada": "media",
+            "prioridad_predicha": "media",
+            "revision_humana": false,
+            "latencia_ms": 11379.79
+        },
+        {
+            "id": 18,
+            "esperada": "facturacion",
+            "predicha": "soporte",
+            "prioridad_esperada": "media",
+            "prioridad_predicha": "alta",
+            "revision_humana": true,
+            "latencia_ms": 11023.01
+        },
+        {
+            "id": 19,
+            "esperada": "facturacion",
+            "predicha": "facturacion",
+            "prioridad_esperada": "media",
+            "prioridad_predicha": "media",
+            "revision_humana": true,
+            "latencia_ms": 11076.48
+        },
+        {
+            "id": 20,
+            "esperada": "facturacion",
+            "predicha": "facturacion",
+            "prioridad_esperada": "media",
+            "prioridad_predicha": "alta",
+            "revision_humana": true,
+            "latencia_ms": 14602.61
+        },
+        {
+            "id": 21,
+            "esperada": "facturacion",
+            "predicha": "facturacion",
+            "prioridad_esperada": "media",
+            "prioridad_predicha": "alta",
+            "revision_humana": true,
+            "latencia_ms": 11168.31
+        },
+        {
+            "id": 22,
+            "esperada": "facturacion",
+            "predicha": "facturacion",
+            "prioridad_esperada": "media",
+            "prioridad_predicha": "media",
+            "revision_humana": false,
+            "latencia_ms": 11482.82
+        },
+        {
+            "id": 23,
+            "esperada": "otro",
+            "predicha": "otro",
+            "prioridad_esperada": "baja",
+            "prioridad_predicha": "alta",
+            "revision_humana": true,
+            "latencia_ms": 10583.79
+        },
+        {
+            "id": 24,
+            "esperada": "otro",
+            "predicha": "soporte",
+            "prioridad_esperada": "baja",
+            "prioridad_predicha": "alta",
+            "revision_humana": true,
+            "latencia_ms": 11246.06
+        },
+        {
+            "id": 25,
+            "esperada": "otro",
+            "predicha": "otro",
+            "prioridad_esperada": "baja",
+            "prioridad_predicha": "baja",
+            "revision_humana": false,
+            "latencia_ms": 13520.67
+        },
+        {
+            "id": 26,
+            "esperada": "otro",
+            "predicha": "soporte",
+            "prioridad_esperada": "baja",
+            "prioridad_predicha": "alta",
+            "revision_humana": true,
+            "latencia_ms": 11788.7
+        },
+        {
+            "id": 27,
+            "esperada": "otro",
+            "predicha": "otro",
+            "prioridad_esperada": "baja",
+            "prioridad_predicha": "alta",
+            "revision_humana": true,
+            "latencia_ms": 10827.72
+        },
+        {
+            "id": 28,
+            "esperada": "otro",
+            "predicha": "soporte",
+            "prioridad_esperada": "baja",
+            "prioridad_predicha": "baja",
+            "revision_humana": true,
+            "latencia_ms": 12697.14
+        },
+        {
+            "id": 29,
+            "esperada": "otro",
+            "predicha": "otro",
+            "prioridad_esperada": "baja",
+            "prioridad_predicha": "baja",
+            "revision_humana": false,
+            "latencia_ms": 12180.16
+        },
+        {
+            "id": 30,
+            "esperada": "otro",
+            "predicha": "otro",
+            "prioridad_esperada": "baja",
+            "prioridad_predicha": "baja",
+            "revision_humana": false,
+            "latencia_ms": 11040.42
+        }
+    ]
+}

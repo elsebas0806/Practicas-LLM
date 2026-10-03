@@ -1,0 +1,5 @@
+﻿ollama
+pydantic
+pymongo
+python-dotenv
+reportlab

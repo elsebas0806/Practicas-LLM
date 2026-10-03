@@ -1,0 +1,23 @@
+==============================================================================
+REPORTE DE RIESGOS ÉTICOS DE IA - LogiSmart Python Suite
+Generado: 2026-10-03 02:00
+==============================================================================
+Módulos: 3 | Riesgos: 5 | Puntaje promedio: 12.6
+Por nivel: crítico=1, alto=2, medio=2, bajo=0
+Por categoría: privacidad=2, sesgo=1, seguridad=1, responsabilidad=1
+
+MATRIZ (ordenada de mayor a menor riesgo):
+Módulo                          Riesgo                             P  I  Pts  Nivel
+------------------------------------------------------------------------------
+Cámara de Detección de Somnolen Violación de privacidad (video co  4  5   20  crítico
+Cámara de Detección de Somnolen Sesgo en visión nocturna (falsos   4  4   16  alto
+Clasificador de Incidentes      Priorizar mal un incidente crític  2  5   10  alto
+Lector de Placas (LPR)          Lectura errónea que niega acceso   3  3    9  medio
+Lector de Placas (LPR)          Conservación indebida de datos de  2  4    8  medio
+
+MITIGACIONES PROPUESTAS:
+  - [CRÍTICO] Cámara de Detección de Somnolencia: Procesar en el borde, no almacenar video, aviso y consentimiento
+  - [ALTO] Cámara de Detección de Somnolencia: Entrenar y auditar con datos nocturnos y diversos; umbral ajustable
+  - [ALTO] Clasificador de Incidentes: Palabras críticas siempre escalan; revisión humana de 'otro'
+  - [MEDIO] Lector de Placas (LPR): Revisión humana y canal de apelación
+  - [MEDIO] Lector de Placas (LPR): Política de retención y cifrado

@@ -1,0 +1,261 @@
+{
+    "camiones": [
+        {
+            "_id": "6ac0c5fe7e73b31d369d390e",
+            "placa": "CAM-103",
+            "camion_id": "CAM-103",
+            "empresa": "Carga Nacional",
+            "autorizacion": false,
+            "certificacion_conductor": false,
+            "fecha_creacion": "2026-10-03 09:08:14.073000"
+        },
+        {
+            "_id": "6ac0c5fe7e73b31d369d390d",
+            "placa": "CAM-102",
+            "camion_id": "CAM-102",
+            "empresa": "Transporte Seguro MX",
+            "autorizacion": true,
+            "certificacion_conductor": true,
+            "fecha_creacion": "2026-10-03 09:08:14.071000"
+        },
+        {
+            "_id": "6ac0c5fd7e73b31d369d390c",
+            "placa": "CAM-101",
+            "camion_id": "CAM-101",
+            "empresa": "Logistica Demo SA",
+            "autorizacion": true,
+            "certificacion_conductor": true,
+            "fecha_creacion": "2026-10-03 09:08:13.983000"
+        }
+    ],
+    "accesos": [
+        {
+            "_id": "6ac11f7223093a76b510773f",
+            "camion_id": "CAM-103",
+            "P": true,
+            "S": true,
+            "Q": true,
+            "R": true,
+            "C": true,
+            "H": true,
+            "A": false,
+            "E": true,
+            "C1": true,
+            "H1": false,
+            "explicacion": [
+                "A = P(True) AND S(True) AND NOT Q(False) -> False",
+                "E = P(True) AND (R(True) OR Q(True)) -> True",
+                "C1 = P(True) AND S(True) AND C(True) -> True",
+                "H1 = P(True) AND H(True) AND NOT Q(False) -> False"
+            ],
+            "operador": "usuario_gui",
+            "fecha_creacion": "2026-10-03 15:29:54.724000"
+        },
+        {
+            "_id": "6ac0c5fe7e73b31d369d3912",
+            "camion_id": "CAM-103",
+            "operador": "operador_demo",
+            "P": true,
+            "Q": false,
+            "R": false,
+            "S": false,
+            "C": false,
+            "H": false,
+            "resultado_A": false,
+            "resultado_E": false,
+            "resultado_C1": false,
+            "resultado_H1": false,
+            "explicacion": [
+                "A = P(True) AND S(False) AND NOT Q(True) -> False",
+                "E = P(True) AND (R(False) OR Q(False)) -> False",
+                "C1 = P(True) AND S(False) AND C(False) -> False",
+                "H1 = P(True) AND H(False) AND NOT Q(True) -> False"
+            ],
+            "fecha": "2026-10-03 09:08:14.146000",
+            "fecha_creacion": "2026-10-03 09:08:14.146000"
+        },
+        {
+            "_id": "6ac0c5fe7e73b31d369d3911",
+            "camion_id": "CAM-102",
+            "operador": "operador_demo",
+            "P": true,
+            "Q": true,
+            "R": true,
+            "S": true,
+            "C": true,
+            "H": true,
+            "resultado_A": false,
+            "resultado_E": true,
+            "resultado_C1": true,
+            "resultado_H1": false,
+            "explicacion": [
+                "A = P(True) AND S(True) AND NOT Q(False) -> False",
+                "E = P(True) AND (R(True) OR Q(True)) -> True",
+                "C1 = P(True) AND S(True) AND C(True) -> True",
+                "H1 = P(True) AND H(True) AND NOT Q(False) -> False"
+            ],
+            "fecha": "2026-10-03 09:08:14.142000",
+            "fecha_creacion": "2026-10-03 09:08:14.142000"
+        },
+        {
+            "_id": "6ac0c5fe7e73b31d369d3910",
+            "camion_id": "CAM-101",
+            "operador": "operador_demo",
+            "P": true,
+            "Q": false,
+            "R": false,
+            "S": true,
+            "C": true,
+            "H": true,
+            "resultado_A": true,
+            "resultado_E": false,
+            "resultado_C1": true,
+            "resultado_H1": true,
+            "explicacion": [
+                "A = P(True) AND S(True) AND NOT Q(True) -> True",
+                "E = P(True) AND (R(False) OR Q(False)) -> False",
+                "C1 = P(True) AND S(True) AND C(True) -> True",
+                "H1 = P(True) AND H(True) AND NOT Q(True) -> True"
+            ],
+            "fecha": "2026-10-03 09:08:14.088000",
+            "fecha_creacion": "2026-10-03 09:08:14.088000"
+        }
+    ],
+    "incidentes": [
+        {
+            "_id": "6ac0c338b220e5c08512a680",
+            "correo": {
+                "remitente": "cliente@test.com",
+                "asunto": "No puedo acceder a mi cuenta",
+                "cuerpo": "Desde esta mañana no puedo entrar a mi cuenta y necesito ayuda."
+            },
+            "clasificacion": {
+                "categoria": "soporte",
+                "prioridad": "alta",
+                "requiere_escalamiento": false,
+                "motivo": "Pérdida de acceso a una cuenta",
+                "confianza": 0.9
+            },
+            "reglas": {
+                "A": true,
+                "E": false,
+                "aprobar": true,
+                "escalar": false
+            },
+            "decision": "APROBAR",
+            "fecha_creacion": "2026-10-03 08:56:24.536000"
+        },
+        {
+            "_id": "6ac0c281f46c9783f0d9f854",
+            "tipo": "otro",
+            "categoria": "otro",
+            "prioridad": "baja",
+            "descripcion": "Consulta general sobre el servicio.",
+            "requiere_escalamiento": false,
+            "fecha_creacion": "2026-10-03 08:53:21.246000"
+        },
+        {
+            "_id": "6ac0c281f46c9783f0d9f853",
+            "tipo": "facturacion",
+            "categoria": "facturacion",
+            "prioridad": "media",
+            "descripcion": "Cliente reporta un cobro incorrecto.",
+            "requiere_escalamiento": false,
+            "fecha_creacion": "2026-10-03 08:53:21.245000"
+        },
+        {
+            "_id": "6ac0c281f46c9783f0d9f852",
+            "tipo": "seguridad",
+            "categoria": "seguridad",
+            "prioridad": "critica",
+            "descripcion": "Cliente reporta actividad sospechosa en su cuenta.",
+            "requiere_escalamiento": true,
+            "fecha_creacion": "2026-10-03 08:53:21.244000"
+        },
+        {
+            "_id": "6ac0c281f46c9783f0d9f851",
+            "tipo": "soporte",
+            "categoria": "soporte",
+            "prioridad": "alta",
+            "descripcion": "Cliente no puede acceder a su cuenta.",
+            "requiere_escalamiento": false,
+            "fecha_creacion": "2026-10-03 08:53:21.228000"
+        },
+        {
+            "_id": "6ac0c248c6a5c022a1611871",
+            "tipo": "prueba",
+            "descripcion": "Incidente de prueba de LogiSmart",
+            "fecha_creacion": "2026-10-03 08:52:24.201000"
+        }
+    ],
+    "riesgos_eticos": [
+        {
+            "_id": "6ac0cb6a24efb36f9b04cf53",
+            "modulo": "Motor de decisiones",
+            "descripcion": "Los usuarios pueden depender demasiado de las decisiones automáticas del sistema.",
+            "categoria": "automatizacion",
+            "probabilidad": 3,
+            "impacto": 5,
+            "mitigacion": "Mantener revisión humana para casos ambiguos o de alto riesgo.",
+            "historial": [
+                {
+                    "accion": "creacion",
+                    "fecha": "2026-10-03 09:31:22.206000",
+                    "usuario": "sistema"
+                }
+            ],
+            "fecha_creacion": "2026-10-03 09:31:22.206000"
+        },
+        {
+            "_id": "6ac0cb6a24efb36f9b04cf52",
+            "modulo": "MongoDB",
+            "descripcion": "Los registros pueden contener información relacionada con operadores y conductores.",
+            "categoria": "privacidad",
+            "probabilidad": 2,
+            "impacto": 5,
+            "mitigacion": "Limitar los datos almacenados, controlar el acceso y evitar información personal innecesaria.",
+            "historial": [
+                {
+                    "accion": "creacion",
+                    "fecha": "2026-10-03 09:31:22.204000",
+                    "usuario": "sistema"
+                }
+            ],
+            "fecha_creacion": "2026-10-03 09:31:22.204000"
+        },
+        {
+            "_id": "6ac0cb6a24efb36f9b04cf51",
+            "modulo": "Clasificador",
+            "descripcion": "El sistema puede clasificar de forma diferente correos escritos con errores o lenguaje informal.",
+            "categoria": "sesgo",
+            "probabilidad": 3,
+            "impacto": 4,
+            "mitigacion": "Evaluar ejemplos con distintas formas de escritura y revisar errores de clasificación.",
+            "historial": [
+                {
+                    "accion": "creacion",
+                    "fecha": "2026-10-03 09:31:22.202000",
+                    "usuario": "sistema"
+                }
+            ],
+            "fecha_creacion": "2026-10-03 09:31:22.202000"
+        },
+        {
+            "_id": "6ac0cb6a24efb36f9b04cf50",
+            "modulo": "LLM",
+            "descripcion": "El modelo puede generar una clasificación o explicación incorrecta.",
+            "categoria": "alucinaciones",
+            "probabilidad": 3,
+            "impacto": 5,
+            "mitigacion": "Validar respuestas con Pydantic, utilizar reglas deterministas y permitir revisión humana.",
+            "historial": [
+                {
+                    "accion": "creacion",
+                    "fecha": "2026-10-03 09:31:22.145000",
+                    "usuario": "sistema"
+                }
+            ],
+            "fecha_creacion": "2026-10-03 09:31:22.145000"
+        }
+    ]
+}

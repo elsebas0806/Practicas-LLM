@@ -1,0 +1,184 @@
+{
+    "total": 30,
+    "aciertos": 29,
+    "errores": 1,
+    "exactitud": 0.9666666666666667,
+    "matriz_confusion": {
+        "soporte": {
+            "soporte": 8,
+            "seguridad": 0,
+            "facturacion": 0,
+            "otro": 0
+        },
+        "seguridad": {
+            "soporte": 1,
+            "seguridad": 6,
+            "facturacion": 0,
+            "otro": 0
+        },
+        "facturacion": {
+            "soporte": 0,
+            "seguridad": 0,
+            "facturacion": 7,
+            "otro": 0
+        },
+        "otro": {
+            "soporte": 0,
+            "seguridad": 0,
+            "facturacion": 0,
+            "otro": 8
+        }
+    },
+    "resultados": [
+        {
+            "id": 1,
+            "esperada": "soporte",
+            "predicha": "soporte"
+        },
+        {
+            "id": 2,
+            "esperada": "soporte",
+            "predicha": "soporte"
+        },
+        {
+            "id": 3,
+            "esperada": "soporte",
+            "predicha": "soporte"
+        },
+        {
+            "id": 4,
+            "esperada": "soporte",
+            "predicha": "soporte"
+        },
+        {
+            "id": 5,
+            "esperada": "soporte",
+            "predicha": "soporte"
+        },
+        {
+            "id": 6,
+            "esperada": "soporte",
+            "predicha": "soporte"
+        },
+        {
+            "id": 7,
+            "esperada": "soporte",
+            "predicha": "soporte"
+        },
+        {
+            "id": 8,
+            "esperada": "soporte",
+            "predicha": "soporte"
+        },
+        {
+            "id": 9,
+            "esperada": "seguridad",
+            "predicha": "seguridad"
+        },
+        {
+            "id": 10,
+            "esperada": "seguridad",
+            "predicha": "seguridad"
+        },
+        {
+            "id": 11,
+            "esperada": "seguridad",
+            "predicha": "soporte"
+        },
+        {
+            "id": 12,
+            "esperada": "seguridad",
+            "predicha": "seguridad"
+        },
+        {
+            "id": 13,
+            "esperada": "seguridad",
+            "predicha": "seguridad"
+        },
+        {
+            "id": 14,
+            "esperada": "seguridad",
+            "predicha": "seguridad"
+        },
+        {
+            "id": 15,
+            "esperada": "seguridad",
+            "predicha": "seguridad"
+        },
+        {
+            "id": 16,
+            "esperada": "facturacion",
+            "predicha": "facturacion"
+        },
+        {
+            "id": 17,
+            "esperada": "facturacion",
+            "predicha": "facturacion"
+        },
+        {
+            "id": 18,
+            "esperada": "facturacion",
+            "predicha": "facturacion"
+        },
+        {
+            "id": 19,
+            "esperada": "facturacion",
+            "predicha": "facturacion"
+        },
+        {
+            "id": 20,
+            "esperada": "facturacion",
+            "predicha": "facturacion"
+        },
+        {
+            "id": 21,
+            "esperada": "facturacion",
+            "predicha": "facturacion"
+        },
+        {
+            "id": 22,
+            "esperada": "facturacion",
+            "predicha": "facturacion"
+        },
+        {
+            "id": 23,
+            "esperada": "otro",
+            "predicha": "otro"
+        },
+        {
+            "id": 24,
+            "esperada": "otro",
+            "predicha": "otro"
+        },
+        {
+            "id": 25,
+            "esperada": "otro",
+            "predicha": "otro"
+        },
+        {
+            "id": 26,
+            "esperada": "otro",
+            "predicha": "otro"
+        },
+        {
+            "id": 27,
+            "esperada": "otro",
+            "predicha": "otro"
+        },
+        {
+            "id": 28,
+            "esperada": "otro",
+            "predicha": "otro"
+        },
+        {
+            "id": 29,
+            "esperada": "otro",
+            "predicha": "otro"
+        },
+        {
+            "id": 30,
+            "esperada": "otro",
+            "predicha": "otro"
+        }
+    ]
+}

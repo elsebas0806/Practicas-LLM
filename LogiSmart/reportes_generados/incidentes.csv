@@ -1,0 +1,7 @@
+prioridad,correo,descripcion,reglas,categoria,tipo,_id,requiere_escalamiento,fecha_creacion,decision,clasificacion
+,"{""remitente"": ""cliente@test.com"", ""asunto"": ""No puedo acceder a mi cuenta"", ""cuerpo"": ""Desde esta mañana no puedo entrar a mi cuenta y necesito ayuda.""}",,"{""A"": true, ""E"": false, ""aprobar"": true, ""escalar"": false}",,,6ac0c338b220e5c08512a680,,2026-10-03 08:56:24.536000,APROBAR,"{""categoria"": ""soporte"", ""prioridad"": ""alta"", ""requiere_escalamiento"": false, ""motivo"": ""Pérdida de acceso a una cuenta"", ""confianza"": 0.9}"
+baja,,Consulta general sobre el servicio.,,otro,otro,6ac0c281f46c9783f0d9f854,False,2026-10-03 08:53:21.246000,,
+media,,Cliente reporta un cobro incorrecto.,,facturacion,facturacion,6ac0c281f46c9783f0d9f853,False,2026-10-03 08:53:21.245000,,
+critica,,Cliente reporta actividad sospechosa en su cuenta.,,seguridad,seguridad,6ac0c281f46c9783f0d9f852,True,2026-10-03 08:53:21.244000,,
+alta,,Cliente no puede acceder a su cuenta.,,soporte,soporte,6ac0c281f46c9783f0d9f851,False,2026-10-03 08:53:21.228000,,
+,,Incidente de prueba de LogiSmart,,,prueba,6ac0c248c6a5c022a1611871,,2026-10-03 08:52:24.201000,,
